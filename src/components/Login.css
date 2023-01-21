@@ -1,0 +1,44 @@
+.LoginBox
+{
+ 
+    background-color: rgba(255,255,255,0.5);
+    margin-left: auto;
+    margin-right: auto;
+  margin-top:150px;
+  width:40%;
+    padding:100px;
+    border-radius: 10px ;
+    display:block;
+}
+.LoginField{
+    margin-left:auto;
+    margin-right: auto;
+    padding:30px;
+    width:50%;
+    font-size:22px;
+    width:30%;
+
+}
+.LoginField input, .LoginField button
+{
+    width: 100%;
+    padding:10px;
+    margin:10px;
+    margin-left:0;
+
+
+}
+
+@media (max-width: 750px) {
+.LoginBox{
+width:100%;
+    
+    padding:3px;
+    margin-top:100px;
+}
+.LoginField{
+    padding:5px;
+    width:70%;
+}
+
+}

@@ -1,0 +1,55 @@
+.Orders{
+
+    background-color: #fff;
+    width:90%;
+    min-height:200px;
+    margin-left: auto;
+margin-right: auto;
+margin-top:70px;
+color:black
+}
+.Orders h1{
+    text-align: center;
+}
+
+.optionsOrders{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.oneOption{
+
+    padding:15px;
+    border-left:1px blanchedalmond solid;
+    display: inline;
+    transition: 0.4s;
+    border-radius: 10px;;
+}
+.oneOptionActive
+{
+    background-color: rgb(255, 77, 213);
+    color:#fff;
+}
+.oneOption:hover
+{
+    background-color:rgb(179, 179, 179);
+    color:rgb(82, 82, 82);
+    cursor: pointer;
+}
+.oneOption:first-child
+{
+    border-left:none;
+}
+
+
+@media (max-width: 750px) {
+.Orders{
+    width:100%;
+
+}
+.oneOption{
+   display: block;
+
+}
+
+}
